@@ -11,15 +11,31 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
-  english_words: ^4.0.0
+  cupertino_icons: ^1.0.8
   provider: ^6.0.0
+  video_player: ^2.2.11
+  
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  
 
   flutter_lints: ^2.0.0
 
 flutter:
   uses-material-design: true
+  assets:
+    - assets/profile.png
+    - assets/img_me_1.png
+    - assets/img_me_2.png
+    - assets/img_me_3.png
+    - assets/img_me_4.png
+    - assets/img_me_5.png
+    - assets/project1.png
+    - assets/icon-tistory.png
+    - assets/icon-github.png
+    - assets/mp4-climb2.mp4
+    - assets/climb1.png
+    - assets/project2.png
+    - assets/project3.png
